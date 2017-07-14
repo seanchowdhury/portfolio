@@ -20,6 +20,9 @@
       ga('send', 'pageview');
 
     </script>
+    <script>
+      console.log("I've always been absorbed by systems and puzzles. From creating word games with my friends to earning a Geology degree to web development, I feel most engaged when I am tackling a complicated problem with many moving parts. With my experience working with Ruby on Rails, JavaScript and React/Redux I'm finally able to build projects that I could only talk about.")
+    </script>
   </head>
   <body>
     <div class="site-wrapper">
@@ -76,6 +79,12 @@
               <h3>Command Line Chess</h3>
               <p>
                 An accurate recreation of chess built in Ruby for the command line.
+              </p>
+            </li>
+            <li data-key="about" display-style='none'>
+              <h3>aboutMe-js</h3>
+              <p>
+                A lightweight library that allows the user to learn more about Sean.
               </p>
             </li>
           </ul>
@@ -148,6 +157,25 @@
                 <img src="images/chess.png"></img>
               </div>
             </li>
+            <li data-key="about" class="project-item hidden">
+              <div class="info">
+                <div class="project-item-header">
+                  <h3>About me</h3>
+                </div>
+                <span>(Eating, Wandering)</span>
+                <p>
+                  <b>Who am I? </b>A NYC based web developer with a background in Earth and Atmospheric Science
+                </p>
+                <p>
+                  const seanBio = require('aboutME-js'); <br />
+                  const stuffAboutSean = new seanBio; <br />
+                  console.log(stuffAboutSean()); <br />
+                  (cmd + option + i)
+                </p>
+                <hr>
+                <img src="images/.jpg"></img>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
@@ -173,7 +201,7 @@
       <hr>
 
       <footer>
-        Copyright © 2016 Rafael Patel(?) All Rights Reserved.
+        <!-- Copyright © 2016 Rafael Patel() All Rights Reserved. -->
       </footer>
 
     </div>
