@@ -59,6 +59,17 @@
       <!-- For this navigation to work, you must make the data-keys the same in
       both the #list li, and the #project-content li. -->
       <div class="content">
+        <div class="about-me">
+          <h1>aboutMe.js</h1>
+          <p>
+            const seansBio = require('aboutME-js'); <br />
+            const stuffAboutSean = new seansBio; <br />
+            console.log(stuffAboutSean()); <br />
+            <b>(cmd + option + i)</b>
+          </p>
+        </div>
+      </div>
+      <div class="content">
         <div class="projects">
           <h1>Projects</h1>
           <ul class="list group">
@@ -78,12 +89,6 @@
               <h3>Command Line Chess</h3>
               <p>
                 An accurate recreation of chess built in Ruby for the command line.
-              </p>
-            </li>
-            <li data-key="about" display-style='none'>
-              <h3>aboutMe-js</h3>
-              <p>
-                A lightweight library that allows the user to learn more about Sean.
               </p>
             </li>
           </ul>
@@ -154,25 +159,6 @@
                 </ul>
                 <hr>
                 <img src="images/chess.png"></img>
-              </div>
-            </li>
-            <li data-key="about" class="project-item hidden">
-              <div class="info">
-                <div class="project-item-header">
-                  <h3>About me</h3>
-                </div>
-                <span>(Eating, Wandering)</span>
-                <p>
-                  <b>Who am I? </b>A NYC based web developer with a background in Earth and Atmospheric Science
-                </p>
-                <p>
-                  const seanBio = require('aboutME-js'); <br />
-                  const stuffAboutSean = new seanBio; <br />
-                  console.log(stuffAboutSean()); <br />
-                  (cmd + option + i)
-                </p>
-                <hr>
-                <img></img>
               </div>
             </li>
           </ul>
